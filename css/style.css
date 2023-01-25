@@ -521,13 +521,6 @@ html {
   position: fixed;
 }
 
-.inset-0 {
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -907,11 +900,6 @@ footer {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) {
-  .md\:float-left {
-    float: left;
-  }
-
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -923,18 +911,6 @@ footer {
 
   .md\:flex {
     display: flex;
-  }
-
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
-  .md\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
-  .md\:justify-between {
-    justify-content: space-between;
   }
 
   .md\:px-12 {
