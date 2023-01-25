@@ -12,31 +12,28 @@
 
 	</head>
 	<body>
-		<!-- <header class="flex items-center justify-between px-5 py-3 text-white md:px-8 bg-teal-1000 lg:h-5vh">
-			<a href="/"><span class="font-serif text-xl font-bold tracking-widest">Ingram Dunes</span></a>
-		</header> -->
-		<header class="fixed w-full">
-			<nav class="flex items-center justify-between flex-wrap bg-teal-1000 p-6">
-				<div class="flex items-center flex-shrink-0 text-white mr-6">
-				  <a href="#" class="font-semibold text-xl tracking-tight">Hunter Platt</a>
+		<header class="fixed z-50 w-full">
+			<nav class="flex flex-wrap items-center justify-between p-6 bg-teal-1000">
+				<div class="flex items-center flex-shrink-0 mr-6 text-white">
+				  <a href="index.html" class="text-xl font-semibold tracking-tight">Hunter Platt</a>
 				</div>
 				<div class="block lg:hidden">
 				  <button id="menu-btn" class="flex items-center px-3 py-2 text-white hover:text-white hover:border-white">
-					<svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+					<svg class="w-4 h-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
 				  </button>
 				</div>
-				<div id="menu" class="w-full block lg:flex lg:items-baseline lg:w-auto hidden">
+				<div id="menu" class="hidden block w-full lg:flex lg:items-baseline lg:w-auto">
 				  <div class="text-sm text-right lg:flex-grow">
-					<a href="#property-search" class="block mt-4 lg:mr-4 lg:inline-block lg:mt-0 text-white hover:text-white">
+					<a href="#property-search" class="block mt-4 text-white lg:mr-4 lg:inline-block lg:mt-0 hover:text-white">
 						Property Search
 					</a>
-					<a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
+					<a href="/about.html" class="block mt-4 text-white lg:inline-block lg:mt-0 hover:text-white">
 						About
 					</a>
-					<a href="#contact" class="block mt-4 lg:inline-block lg:mr-4 lg:mt-0 text-white hover:text-white">
+					<a href="#contact" class="block mt-4 text-white lg:inline-block lg:mr-4 lg:mt-0 hover:text-white">
 						Contact
 					</a>
-					<a href="tel:+843-315-6061" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
+					<a href="tel:+843-315-6061" class="block mt-4 text-white lg:inline-block lg:mt-0 hover:text-white">
 						843-315-6061
 					  </a>
 				  </div>
@@ -62,7 +59,8 @@ Advantage</h2>
 			<div class="md:flex">
 				<div class="ml-5 border-t border-gray-300 border-solid mt-9"></div>
 				<section class="py-5 pl-2">
-					<h3 class="text-3xl text-teal-1000">Full Service</h3>
+					<h3 class="text-3xl whitespace-pre text-teal-1000">Full 
+Service</h3>
 					<p class="mt-4 font-sans text-gray-700">We provide market specific expertise and knowledge in commercial real estate brokerage, leasing and valuation / advisory... having achieved some of industry's top credentials and experience levels.  In addition to our performance record, our advisors are integrated deeply in the community as leaders and activists.</p>
 				</section>
 				<div class="ml-5 border-t border-gray-300 border-solid mt-9"></div>
@@ -73,16 +71,16 @@ Advantage</h2>
 			</div>
 		</section>
 
-		<section class="flex flex-col max-w-4xl px-6 md:px-12 md:mx-auto">
-			<h2 id="property-search" class="mt-8 text-5xl whitespace-pre text-teal-1000">Property 
+		<section id="property-search" class="flex flex-col max-w-4xl px-6 md:px-12 md:mx-auto">
+			<h2 class="mt-8 text-5xl whitespace-pre text-teal-1000">Property 
 Search</h2>
 		</section>
 
 		<section class="flex flex-col max-w-4xl px-6 md:px-12 md:mx-auto">
 			<h2 class="mt-8 text-5xl whitespace-pre text-teal-1000">Latest 
 News</h2>
-			<div class="flex flex-col md:flex-row md:flex-wrap">
-				<div class="fb-post" 
+			<div class="flex flex-col md:flex-row md:flex-wrap z-1">
+				<div class="fb-post z-1" 
 				data-href="https://www.facebook.com/permalink.php?story_fbid=209842984712560&id=100070605800205&__cft__[0]=AZUTP6fPcwS0_MIk4Cq87SgULh3zuW2AbEZvCzlv6IFGODui4BRoRJ12ueErlMYX59HJnvQKA4V_K2uL0WFNkoy92wpdBmyJT26VguCZ0GJgTmgJ5pZmXVT4j5Bc-Yz2LpJoMejvBlpVNIq0fSz8xgJs&__tn__=%2CO%2CP-R"
 				data-width="350"></div>
 				<div class="fb-post" 
@@ -112,7 +110,7 @@ Hunter</h2>
 							<input class="h-12 pl-4 text-[#444] rounded-sm" name="email" type="text" placeholder="Enter your email address">
 							<input type="Submit" value="Sign Up" class="mt-2 text-2xl text-left text-white underline decoration-teal-300 underline-offset-4" href="">
 					</div>
-					<div class="flex flex-col gap-4">
+					<div id="contact" class="flex flex-col gap-4">
 						<h2 class="text-4xl text-white">Contact</h2>
 						<div class="flex flex-wrap items-center gap-6 font-sans text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" fill="white"/></svg>
